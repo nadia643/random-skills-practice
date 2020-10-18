@@ -1,3 +1,4 @@
+// COUNTER
 let count = 0;
 
 function lowerCount() {
@@ -13,6 +14,13 @@ function addCount() {
   
 }
 
+function reset() {
+  count = 0;
+  document.getElementById("numberPos").innerHTML = count;
+
+}
+
+// BACKGROUND COLOUR
 
 function changeColour() {
   let a = Math.floor(Math.random() * 256);  
@@ -24,3 +32,8 @@ function changeColour() {
 
   document.getElementById("colourRgb").innerHTML = bgColour.toUpperCase();
 }
+
+
+
+// REVIEWS SLIDER
+let reviews = []
